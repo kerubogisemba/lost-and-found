@@ -7,7 +7,7 @@ if (!isset($_SESSION['user_id'])) {
     exit();
 }
 
-$api_key = "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"; // 👈 Paste your key here
+$api_key = "YOUR_API_KEY_HERE";
 
 function askClaude($api_key, $prompt) {
     $data = [
